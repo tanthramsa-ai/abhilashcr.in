@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <defs><radialGradient id="g" cx="50%" cy="50%" r="55%"><stop offset="0" stop-color="#9b6bf2" stop-opacity=".3"/><stop offset="1" stop-color="#9b6bf2" stop-opacity="0"/></radialGradient></defs>
+  <ellipse cx="160" cy="120" rx="150" ry="110" fill="url(#g)"/>
+  <!-- spokes from the core to six disciplines -->
+  <path d="M160 120L160 40M160 120L229 80M160 120L229 160M160 120L160 200M160 120L91 160M160 120L91 80" stroke="#a3a9b8" stroke-width="1.4" stroke-dasharray="3 5" opacity=".7"/>
+  <!-- outer ring -->
+  <path d="M160 40L229 80L229 160L160 200L91 160L91 80Z" stroke="#9b6bf2" stroke-width="1.4" opacity=".5"/>
+  <!-- six discipline hexagons -->
+  <g stroke-width="2.2">
+    <path d="M160 22l16 9v18l-16 9-16-9V31z" stroke="#4cc3e6" fill="#4cc3e6" fill-opacity=".14"/>
+    <path d="M229 62l16 9v18l-16 9-16-9V71z" stroke="#3d86c6" fill="#3d86c6" fill-opacity=".14"/>
+    <path d="M229 142l16 9v18l-16 9-16-9v-18z" stroke="#9b6bf2" fill="#9b6bf2" fill-opacity=".14"/>
+    <path d="M160 182l16 9v18l-16 9-16-9v-18z" stroke="#ffb43a" fill="#ffb43a" fill-opacity=".14"/>
+    <path d="M91 142l16 9v18l-16 9-16-9v-18z" stroke="#ff6a13" fill="#ff6a13" fill-opacity=".14"/>
+    <path d="M91 62l16 9v18l-16 9-16-9V71z" stroke="#c9ced8" fill="#c9ced8" fill-opacity=".1"/>
+  </g>
+  <!-- core -->
+  <path d="M160 92l24 14v28l-24 14-24-14v-28z" stroke="#ffb43a" stroke-width="2.6" fill="#ffb43a" fill-opacity=".16"/>
+  <circle cx="160" cy="120" r="8" fill="#ff6a13"/>
+  <g fill="#ffb43a"><circle cx="160" cy="40" r="3"/><circle cx="229" cy="80" r="3"/><circle cx="229" cy="160" r="3"/><circle cx="160" cy="200" r="3"/><circle cx="91" cy="160" r="3"/><circle cx="91" cy="80" r="3"/></g>
+</svg>

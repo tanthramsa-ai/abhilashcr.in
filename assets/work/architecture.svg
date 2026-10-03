@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <defs><radialGradient id="g" cx="50%" cy="50%" r="55%"><stop offset="0" stop-color="#4cc3e6" stop-opacity=".22"/><stop offset="1" stop-color="#4cc3e6" stop-opacity="0"/></radialGradient></defs>
+  <ellipse cx="160" cy="120" rx="150" ry="105" fill="url(#g)"/>
+  <!-- connectors -->
+  <path d="M160 64v32M160 136v28M130 116H92M190 116h38M92 116v48M228 116v48M64 164h56M200 164h56" stroke="#9b6bf2" stroke-width="1.6" opacity=".8"/>
+  <!-- gateway -->
+  <rect x="124" y="30" width="72" height="34" rx="8" stroke="#ffb43a" stroke-width="2.4" fill="#ffb43a" fill-opacity=".12"/>
+  <path d="M138 44h44M138 52h28" stroke="#ffb43a" stroke-width="2"/>
+  <!-- core / bus -->
+  <rect x="130" y="96" width="60" height="40" rx="8" stroke="#4cc3e6" stroke-width="2.2" fill="#4cc3e6" fill-opacity=".1"/>
+  <circle cx="160" cy="116" r="7" stroke="#4cc3e6" stroke-width="2"/>
+  <!-- services -->
+  <g stroke="#9b6bf2" stroke-width="2" fill="#9b6bf2" fill-opacity=".1">
+    <rect x="44" y="164" width="40" height="28" rx="6"/><rect x="100" y="164" width="40" height="28" rx="6"/>
+    <rect x="180" y="164" width="40" height="28" rx="6"/><rect x="236" y="164" width="40" height="28" rx="6"/>
+  </g>
+  <g fill="#ff6a13"><circle cx="92" cy="116" r="3.5"/><circle cx="228" cy="116" r="3.5"/><circle cx="160" cy="150" r="3.5"/></g>
+</svg>
