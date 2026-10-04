@@ -171,4 +171,17 @@
 
   window.addEventListener("hashchange", route);
   route();
+
+  // Count this page load (Vercel function); quietly does nothing when the API isn't available
+  var counter = document.querySelector("[data-visits]");
+  if (window.fetch && location.protocol !== "file:") {
+    fetch("/api/visit", { method: "POST", keepalive: true })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        if (!d || !counter || !d.total) return;
+        counter.textContent = d.total.toLocaleString() + (d.total === 1 ? " visit" : " visits");
+        counter.hidden = false;
+      })
+      .catch(function () {});
+  }
 })();
